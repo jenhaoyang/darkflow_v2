@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: [ tf2-support ]
 
+env:
+  TRAVIS_BUILD_DIR: .
+
 jobs:
   build:
 
